@@ -1,22 +1,29 @@
 algoritmo "ex3"
-// Função :
+// FunÃ§Ã£o : determinar o consumo mÃ©dio de um automÃ³vel 
 // Autor : Vinicius Luiz
 // Data : 23/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 distancia, combustivel, consumo: real
 
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 escreval("Digite a distancia total percorrida (KM): ")
 leia (distancia)
 escreval("Digite o total de combustivel gasto (litros): ")
 leia(combustivel)
 se combustivel <> 0 entao
-consumo <- distancia / combustivel
+consumo <- distancia / combustivel  
 
-escreva("O consumo medio do automóvel é: ", consumo:0:2, " km/l")
+// linha 16 serve para mostrar que o consumo e a distancia dividido por combustivel para achar o resultado
+
+//esse codigo serve para calcularmos consumo mÃ©dio de um automÃ³vel sendo fornecida a distÃ¢ncia total
+percorrida pelo automÃ³vel e o total de combustÃ­vel gasto.
+
+
+escreva("O consumo medio do automÃ³vel Ã©: ", consumo:0:2, " km/l")
  senao
- escreva("Erro: Nao é possível calcular o consumo com zero litros de combustível!")
+ escreva("Erro: Nao Ã© possÃ­vel calcular o consumo com zero litros de combustÃ­vel!")
 fimse
 fimalgoritmo
+
