@@ -1,12 +1,12 @@
 algoritmo "ex 14"
-// Função :
+// FunÃ§Ã£o : dizer qual dos dois numeros digitados Ã© maior
 // Autor : Vinicius Luiz
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 n1 , n2 , n3 : real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 escreval("Digite um numero : ")
 leia(n1)
@@ -15,10 +15,13 @@ escreval("Digite outro numero : ")
 leia(n2)
 
 se n1 > n2 entao
- escreval("O número ", n1 , " é maior que , ", n2)
+ escreval("O nÃºmero ", n1 , " Ã© maior que , ", n2)
  senao
- escreval("o número ", n2 , " é maior que , ", n1)
+ escreval("o nÃºmero ", n2 , " Ã© maior que , ", n1)
 fimse
 
 
+//se o n1 for maior que n2, entao sera dito que ele Ã© maior, caso o maior seja o n2, sera dito que o n2 e maior
+
 fimalgoritmo
+
