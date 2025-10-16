@@ -1,12 +1,12 @@
 algoritmo "ex 13"
-// Função :
+// FunÃ§Ã£o : mostrar se um numero Ã© maior que 10
 // Autor : Vinicius Luiz
 // Data : 29/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 n1 , n2 , n3 : real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 escreval("Digite um numero : ")
 leia(n1)
@@ -14,8 +14,13 @@ leia(n1)
 
 
 se n1 > n2 entao
- escreval("O número ", n1 , " é maior que 10 ")
+ escreval("O nÃºmero ", n1 , " Ã© maior que 10 ")
 fimse
 
 
+
+// mostra se o numero digitado Ã© maior que 10 e caso for, uma mensagem Ã© dita 
+
+
 fimalgoritmo
+
