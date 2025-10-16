@@ -1,14 +1,14 @@
 algoritmo "Ex 12 "
-// FunÁ„o :
+// Fun√ß√£o : custo de f√°brica de um carro 
 // Autor : Vinicius Luiz
 // Data : 29/09/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 fabrica , impostos , consumidor , total , distribuidor : real
 inicio
-// SeÁ„o de Comandos 
+// Se√ß√£o de Comandos 
 
-escreval("Digite o custo da f·brica do carro : ")
+escreval("Digite o custo da f√°brica do carro : ")
 leia(fabrica)
 
 impostos <- fabrica * 0.45
@@ -17,6 +17,14 @@ total <- fabrica + impostos
 distribuidor <- total * 0.28
 consumidor <- total + distribuidor
 
-escreval("O custo ao consumidor È : " , "R$" , consumidor , 0:2)
+escreval("O custo ao consumidor √© : " , "R$" , consumidor , 0:2)
+
+
+
+//calcula custo de f√°brica de um carro com os impostos + e o preco da distribuidora
+
+
+
 
 fimalgoritmo
+
