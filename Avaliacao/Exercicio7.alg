@@ -1,21 +1,25 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "Ex7"
+// FunÃ§Ã£o : converter graus celsius em fareinheirt
+// Autor : Vinicius Luiz
 // Data : 25/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 f, c : real
 
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 escreval("Digite quantos celsius vc quer converter : ")
 leia(c)
 
 f <- (9 * c + 160) /5
-escreval("A conversão para faren é : " , f)
+escreval("A conversÃ£o para faren Ã© : " , f)
+
+// converter os graus celsius informado em fareinheirt
+
 
 
 fimalgoritmo
+
 
 
