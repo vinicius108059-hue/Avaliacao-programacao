@@ -1,12 +1,12 @@
 algoritmo "Ex11"
-// Função :
+// FunÃ§Ã£o : e receba o preÃ§o de custo de um produto e mostre o valor de venda
 // Autor :  Vinicius Luiz
 // Data : 26/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 venda , preco , percentual : real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 escreval("Digite o custo do produto " , "R$" )
 leia(preco)
@@ -16,10 +16,11 @@ leia(percentual)
 
 
 venda <- preco + (preco * percentual / 100)
-escreval("O preço da venda é : R$ " , venda:0:2)
+escreval("O preÃ§o da venda Ã© : R$ " , venda:0:2)
 
 
-
+// calcula o preÃ§o do produto e valor da venda com os acrescimos 
 
 
 fimalgoritmo
+
