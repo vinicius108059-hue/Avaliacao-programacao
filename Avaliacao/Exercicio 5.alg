@@ -1,14 +1,14 @@
 algoritmo "Ex5"
-// Função :
+// FunÃ§Ã£o : Calcular a media de um aluno
 // Autor :  Vinicius Luiz
 // Data : 24/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 aluno : caracter
 n1,n2,n3 : real
 media : real
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
 escreval("Digite o nome do aluno: ")
 leia(aluno)
@@ -23,7 +23,7 @@ leia(n2)
 escreval("Digite as notas do aluno: ")
 leia(n3)
 
-// calcule
+
 
 
 media<- (n1+ n2+n3)/3
@@ -31,4 +31,8 @@ escreval("Nome do aluno: ", aluno)
 escreval("Media do bimestre: " , media:0:3)
 
 
+// calcule a media do aluno e divida pela quantida de provas feitas
+
+
 fimalgoritmo
+
