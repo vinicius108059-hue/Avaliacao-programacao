@@ -1,8 +1,8 @@
 algoritmo "Ex4"
-// Função :
+// FunÃ§Ã£o : Mostrar o nome, calcular a comissÃ£o de 15 % do salario e o salario total de um vendedor
 // Autor : Vinicius Luiz
 // Data : 23/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome : caracter
 salario : real
@@ -11,7 +11,7 @@ comissao : real
 salariofinal : real
 
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 escreval ("Digite seu nome :")
 leia(nome)
 
@@ -21,10 +21,15 @@ leia(nome)
  escreva ("Quantas vendas foram feitas (R$) :")
  leia(vendas)
  
- // calcule os valores
+
  
  comissao <- 0.15 * vendas
  salariofinal <- comissao + vendas
- escreval("-- Salário Final (salário + comissão): ",salarioFinal)
+ escreval("-- SalÃ¡rio Final (salÃ¡rio + comissÃ£o): ",salarioFinal)
+
+
+ // calcule os valores da comissÃ£o e diga o valor total do de quanto o vendedor ira receber no fim do mes junto com a comissao
+
 
 fimalgoritmo
+
