@@ -1,12 +1,12 @@
 algoritmo "Ex6"
-// Função :
+// FunÃ§Ã£o : Troca de valores
 // Autor :Vinicius Luiz
 // Data : 25/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 A, B, TEMP : inteiro
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 escreval("Digite o valor de A : ")
 leia(A)
@@ -17,6 +17,14 @@ escreval(" Efetuando a troca ")
 TEMP<-A
 A<-B
 B<-TEMP
-escreval("o valor de A é : " , A)
-escreval("o valor de B é : " , B)
+escreval("o valor de A Ã© : " , A)
+escreval("o valor de B Ã© : " , B)
+
+
+// fazer a variante "A" e "B" receberem valores , e trocar o valor de "A" por "B"
+
+
+
+
 fimalgoritmo
+
