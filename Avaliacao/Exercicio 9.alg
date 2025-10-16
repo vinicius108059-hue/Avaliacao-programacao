@@ -1,6 +1,6 @@
 algoritmo "Ex 9"
 // Função : Rendimento de dinheiro em 1 mes no banco
-// Autor :
+// Autor : Vinicius Luiz
 // Data : 25/09/2025
 // Seção de Declarações 
 var
@@ -18,4 +18,5 @@ escreva("Valor final após 1 mês : ", "R$" ,  valorfinal)
 // O rendimento do dinheiro depositado com um juros de 0, 70 %  em 1 mes
 
 fimalgoritmo
+
 
