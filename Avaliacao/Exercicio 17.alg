@@ -1,16 +1,16 @@
 algoritmo "Ex17"
-// Função :
+// FunÃ§Ã£o : ler 80 numeros e dizer se estao no intervalo de 10 a 150
 // Autor :  Vinicius Luiz
 // Data : 30/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 i, numero, contador: inteiro
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
  contador <- 0
 
    para i de 1 ate 80 faca
-      escreva("Digite o ", i, "º número: ")
+      escreva("Digite o ", i, "Âº nÃºmero: ")
       leia(numero)
 
       se (numero >= 10) e (numero <= 150) entao
@@ -18,5 +18,11 @@ inicio
       fimse
    fimpara
 
-   escreval("Quantidade de números no intervalo [10,150]: ", contador)
+   escreval("Quantidade de nÃºmeros no intervalo [10,150]: ", contador)
+
+
+// ele deve  ler 80 numeros e dizer se estao localizados no intervalo de 10 a 150
+
+
 fimalgoritmo
+
