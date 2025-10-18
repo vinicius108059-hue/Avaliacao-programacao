@@ -1,15 +1,15 @@
 algoritmo "Ex20"
-// Função :
+// FunÃ§Ã£o : Definir o valor de um carro com base no ano dele, dando um certo desconto 
 // Autor :  Vinicius Luiz
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 ano , total2000 , total : inteiro
 resp : caracter
 valor , desconto , valorfinal : real
 
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
 total2000 <- 0
 total <- 0
@@ -44,12 +44,11 @@ leia(resp)
 ate (resp = "N") ou (resp = "n")
 
    escreval()
-   escreval("Total de carros até o ano 2000: ", total2000)
+   escreval("Total de carros atÃ© o ano 2000: ", total2000)
    escreval("Total geral de carros processados: ", total)
 
 
-
-
+// Definira o valor do carro com o desconto , com base e em seu ano e perguntara se voce deseja continuar calculando, caso nÃ£o sera encerrado o programa
 
 
 
@@ -61,3 +60,4 @@ ate (resp = "N") ou (resp = "n")
 
  
 fimalgoritmo
+
