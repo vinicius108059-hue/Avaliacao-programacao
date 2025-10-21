@@ -1,30 +1,32 @@
 algoritmo "Ex24"
-// Função :
+// FunÃ§Ã£o : dira se os numeros sao negativo ou zero para cada nÃºmero.
 // Autor :  Vinicius Luiz
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  numero, i, N : inteiro
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
-escreval("Quantos números deseja informar? ")
+escreval("Quantos nÃºmeros deseja informar? ")
    leia(N)
 
   para i de 1 ate N faca
-      escreval("Digite o número ", i, ": ")
+      escreval("Digite o nÃºmero ", i, ": ")
       leia(numero)
 
       se (numero > 0) entao
-         escreval("O número ", numero, " é POSITIVO.")
+         escreval("O nÃºmero ", numero, " Ã© POSITIVO.")
       senao
          se (numero < 0) entao
-            escreval("O número ", numero, " é NEGATIVO.")
+            escreval("O nÃºmero ", numero, " Ã© NEGATIVO.")
          senao
-            escreval("O número ", numero, " é ZERO.")
+            escreval("O nÃºmero ", numero, " Ã© ZERO.")
          fimse
       fimse
 
-      escreval() // pula linha
+      escreval() 
    fimpara
 fimalgoritmo
+
+// receba â€œNâ€ nÃºmeros e mostra se e negativo ou zero para cada numero 
