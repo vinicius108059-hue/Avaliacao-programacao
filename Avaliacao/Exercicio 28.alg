@@ -1,24 +1,24 @@
 algoritmo "semnome"
-// Fun��o :
-// Autor :
+// Função :  reajuste a seus 584 funcionários de acordo com os criterios
+// Autor : Vinicius Luiz
 // Data : 13/10/2025
-// Se��o de Declara��es 
+// Seção de Declarações 
 var
 nome : caractere
 salario, novoSalario, reajuste, salarioMinimo, aumentoTotal : real
 continuar : caractere
 inicio
-// Se��o de Comandos 
+// Seção de Comandos 
   aumentoTotal <- 0
 
    repita
-      escreval("Digite o nome do funcion�rio: ")
+      escreval("Digite o nome do funcionário: ")
       leia(nome)
 
-      escreval("Digite o sal�rio do funcion�rio: R$ ")
+      escreval("Digite o salário do funcionário: R$ ")
       leia(salario)
 
-      escreval("Digite o valor do sal�rio m�nimo: R$ ")
+      escreval("Digite o valor do salário mínimo: R$ ")
       leia(salarioMinimo)
 
       // Calcula o reajuste
@@ -40,12 +40,12 @@ inicio
       aumentoTotal <- aumentoTotal + reajuste
 
       escreval()
-      escreval("Funcion�rio: ", nome)
+      escreval("Funcionário: ", nome)
       escreval("Valor do reajuste: R$ ", reajuste:0:2)
-      escreval("Novo sal�rio: R$ ", novoSalario:0:2)
+      escreval("Novo salário: R$ ", novoSalario:0:2)
       escreval()
 
-      escreval("Deseja cadastrar outro funcion�rio? (S/N): ")
+      escreval("Deseja cadastrar outro funcionário? (S/N): ")
       leia(continuar)
 
    ate (continuar = "N") ou (continuar = "n")
@@ -53,4 +53,9 @@ inicio
    escreval()
    escreval("Aumento total da folha de pagamento: R$ ", aumentoTotal:0:2)
 
+
+// ira informar o reajuste do salario dos funcionarios de acordo com os criterios 
+
+
 fimalgoritmo
+
