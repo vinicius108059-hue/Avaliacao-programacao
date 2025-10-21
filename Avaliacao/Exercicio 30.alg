@@ -1,24 +1,24 @@
-algoritmo "semnome"
-// Fun��o :
-// Autor :
+algoritmo "Ex30"
+// Função :  algoritmo que receba o nome a idade, o sexo e salário fixo de um funcionário
+// Autor : Vinicius Luiz
 // Data : 13/10/2025
-// Se��o de Declara��es 
+// Seção de Declarações 
 var
 nome, sexo : caractere
 idade : inteiro
 salarioFixo, salarioLiquido, abono : real
 inicio
-// Se��o de Comandos 
- escreval("Digite o nome do funcion�rio: ")
+// Seção de Comandos 
+ escreval("Digite o nome do funcionário: ")
    leia(nome)
 
-   escreval("Digite a idade do funcion�rio: ")
+   escreval("Digite a idade do funcionário: ")
    leia(idade)
 
-   escreval("Digite o sexo do funcion�rio (M/F): ")
+   escreval("Digite o sexo do funcionário (M/F): ")
    leia(sexo)
 
-   escreval("Digite o sal�rio fixo do funcion�rio: R$ ")
+   escreval("Digite o salário fixo do funcionário: R$ ")
    leia(salarioFixo)
 
    // Calcula abono conforme sexo e idade
@@ -38,10 +38,16 @@ inicio
       fimse
    fimse
 
-   // Calcula sal�rio l�quido
+   // Calcula salário líquido
    salarioLiquido <- salarioFixo + abono
 
    escreval()
-   escreval("Nome do funcion�rio: ", nome)
-   escreval("Sal�rio l�quido (com abono): R$ ", salarioLiquido:0:2)
+   escreval("Nome do funcionário: ", nome)
+   escreval("Salário líquido (com abono): R$ ", salarioLiquido:0:2)
+
+// ira receber o nome a idade, o sexo e salário fixo de um funcionário e mostrara o nome e o salário total
+
+
+
 fimalgoritmo
+
