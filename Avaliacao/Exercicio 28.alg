@@ -1,4 +1,4 @@
-algoritmo "semnome"
+algoritmo "Ex28"
 // Função :  reajuste a seus 584 funcionários de acordo com os criterios
 // Autor : Vinicius Luiz
 // Data : 13/10/2025
@@ -58,4 +58,5 @@ inicio
 
 
 fimalgoritmo
+
 
