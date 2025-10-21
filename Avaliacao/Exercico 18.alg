@@ -19,9 +19,11 @@ para i de 1 ate 75 faca
 fimpara
 
 
+// ira ler o nome de 75 pessoas, se for maior de idade dira que é maior caso contrario, dira que e menor
 
 
 
 fimalgoritmo
+
 
 
