@@ -1,49 +1,49 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "Ex39"
+// FunÃ§Ã£o : media do aluno
+// Autor : Vinicius Luiz
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome: caractere
    matricula: inteiro
    lab, avaliacao, exame, media: real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
  escreval("Digite o nome do estudante: ")
    leia(nome)
 
-   escreval("Digite o número de matrícula: ")
+   escreval("Digite o nÃºmero de matrÃ­cula: ")
    leia(matricula)
 
-   escreval("Digite a nota do trabalho de laboratório: ")
+   escreval("Digite a nota do trabalho de laboratÃ³rio: ")
    leia(lab)
 
-   escreval("Digite a nota da avaliação semestral: ")
+   escreval("Digite a nota da avaliaÃ§Ã£o semestral: ")
    leia(avaliacao)
 
    escreval("Digite a nota do exame final: ")
    leia(exame)
 
-   // Cálculo da média ponderada
+   // CÃ¡lculo da mÃ©dia ponderada
    media <- ((lab * 2) + (avaliacao * 3) + (exame * 5)) / 10
 
-   // Exibição da média
-   escreval("A média final do aluno é: ", media:0:2)
+   // ExibiÃ§Ã£o da mÃ©dia
+   escreval("A mÃ©dia final do aluno Ã©: ", media:0:2)
 
-   // Classificação
+   // ClassificaÃ§Ã£o
    se (media >= 8) e (media <= 10) entao
-      escreval("Classificação: A")
+      escreval("ClassificaÃ§Ã£o: A")
    senao
       se (media >= 7) e (media < 8) entao
-         escreval("Classificação: B")
+         escreval("ClassificaÃ§Ã£o: B")
       senao
          se (media >= 6) e (media < 7) entao
-            escreval("Classificação: C")
+            escreval("ClassificaÃ§Ã£o: C")
          senao
             se (media >= 5) e (media < 6) entao
-               escreval("Classificação: D")
+               escreval("ClassificaÃ§Ã£o: D")
             senao
-               escreval("Classificação: R (Reprovado)")
+               escreval("ClassificaÃ§Ã£o: R (Reprovado)")
             fimse
          fimse
       fimse
@@ -51,6 +51,9 @@ inicio
 
    escreval("--------------------------------------")
    escreval("Nome do estudante: ", nome)
-   escreval("Matrícula: ", matricula)
+   escreval("MatrÃ­cula: ", matricula)
    escreval("Nota final: ", media:0:2)
 fimalgoritmo
+
+// dira a media do aluno com base em suas notas e infomara se ele esta aprovado ou reprovado
+
