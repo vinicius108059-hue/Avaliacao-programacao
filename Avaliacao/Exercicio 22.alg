@@ -1,13 +1,13 @@
-algoritmo "semnome"
-// FunÁ„o :
-// Autor :
+algoritmo "Ex22"
+// Fun√ß√£o : algoritmo que receba o pre√ßo de custo e o pre√ßo de venda de 40 produtos.
+// Autor : Vinicius Luiz
 // Data : 13/10/2025
-// SeÁ„o de DeclaraÁıes 
+// Se√ß√£o de Declara√ß√µes 
 var
 precoCusto, precoVenda, somaCusto, somaVenda : real
 i : inteiro
 inicio
-// SeÁ„o de Comandos
+// Se√ß√£o de Comandos
 
 
 somaCusto <- 0
@@ -15,17 +15,17 @@ somaCusto <- 0
 
    para i de 1 ate 40 faca
       escreval("Produto ", i)
-      escreval("Digite o preÁo de custo: R$ ")
+      escreval("Digite o pre√ßo de custo: R$ ")
       leia(precoCusto)
 
-      escreval("Digite o preÁo de venda: R$ ")
+      escreval("Digite o pre√ßo de venda: R$ ")
       leia(precoVenda)
 
       se (precoVenda > precoCusto) entao
          escreval("Resultado: Lucro")
       senao
          se (precoVenda < precoCusto) entao
-            escreval("Resultado: PrejuÌzo")
+            escreval("Resultado: Preju√≠zo")
          senao
             escreval("Resultado: Empate")
          fimse
@@ -38,6 +38,11 @@ somaCusto <- 0
       escreval()
    fimpara
 
-   escreval("MÈdia do preÁo de custo: R$ ", (somaCusto / 40):0:2)
-   escreval("MÈdia do preÁo de venda: R$ ", (somaVenda / 40):0:2)
+   escreval("M√©dia do pre√ßo de custo: R$ ", (somaCusto / 40):0:2)
+   escreval("M√©dia do pre√ßo de venda: R$ ", (somaVenda / 40):0:2)
 fimalgoritmo
+
+// algoritmo que recebe o pre√ßo de custo e o pre√ßo de venda de 40 produtos e mostrara como resultado se
+houve lucro, preju√≠zo ou empate para cada produto e  informara a media de pre√ßo de custo e do pre√ßo de venda.
+
+
