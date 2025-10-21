@@ -1,42 +1,46 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "Ex29"
+// FunÃ§Ã£o : algoritmo que receba o nÃºmero do mÃªs e mostre o mÃªs correspondente
+// Autor : Vinicius Luiz
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 mes : inteiro
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
- escreval("Digite o número do mês (1 a 12): ")
+ escreval("Digite o nÃºmero do mÃªs (1 a 12): ")
    leia(mes)
 
    escolha mes
       caso 1
-         escreval("O mês é Janeiro")
+         escreval("O mÃªs Ã© Janeiro")
       caso 2
-         escreval("O mês é Fevereiro")
+         escreval("O mÃªs Ã© Fevereiro")
       caso 3
-         escreval("O mês é Março")
+         escreval("O mÃªs Ã© MarÃ§o")
       caso 4
-         escreval("O mês é Abril")
+         escreval("O mÃªs Ã© Abril")
       caso 5
-         escreval("O mês é Maio")
+         escreval("O mÃªs Ã© Maio")
       caso 6
-         escreval("O mês é Junho")
+         escreval("O mÃªs Ã© Junho")
       caso 7
-         escreval("O mês é Julho")
+         escreval("O mÃªs Ã© Julho")
       caso 8
-         escreval("O mês é Agosto")
+         escreval("O mÃªs Ã© Agosto")
       caso 9
-         escreval("O mês é Setembro")
+         escreval("O mÃªs Ã© Setembro")
       caso 10
-         escreval("O mês é Outubro")
+         escreval("O mÃªs Ã© Outubro")
       caso 11
-         escreval("O mês é Novembro")
+         escreval("O mÃªs Ã© Novembro")
       caso 12
-         escreval("O mês é Dezembro")
+         escreval("O mÃªs Ã© Dezembro")
       se senao
-         escreval("Número inválido! Digite de 1 a 12.")
+         escreval("NÃºmero invÃ¡lido! Digite de 1 a 12.")
    fimescolha
+
+//recebera o numero e informara o mes diacordo com o numero correspondente , caso seja digitado acima de 13 para cima , dira que o mes e invalido
+
 fimalgoritmo
+
