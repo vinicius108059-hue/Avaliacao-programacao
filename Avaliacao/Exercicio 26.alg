@@ -1,13 +1,13 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "Ex26"
+// FunÃ§Ã£o : leia um nÃºmero de 1 a 5 e escreva por extenso
+// Autor : Vinicius Luiz
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 numero : inteiro
 inicio
-// Seção de Comandos 
-escreval("Digite um número de 1 a 5: ")
+// SeÃ§Ã£o de Comandos 
+escreval("Digite um nÃºmero de 1 a 5: ")
    leia(numero)
 
    escolha numero
@@ -16,14 +16,20 @@ escreval("Digite um número de 1 a 5: ")
       caso 2
          escreval("Dois")
       caso 3
-         escreval("Três")
+         escreval("TrÃªs")
       caso 4
          escreval("Quatro")
       caso 5
          escreval("Cinco")
           outrocaso 
-         escreval("Número não listado")
+         escreval("NÃºmero nÃ£o listado")
    fimescolha
+
+// ira ler nÃºmero de 1 a 5 e escrevera por extenso. Caso o usuÃ¡rio digite um nÃºmero que nÃ£o
+esteja neste intervalo, exibira mensagem: nÃºmero invÃ¡lido.
+
+
 
 
 fimalgoritmo
+
