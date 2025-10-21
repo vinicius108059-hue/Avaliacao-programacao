@@ -1,12 +1,12 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Ex31"
+// FunÃ§Ã£o :algoritmo que leia trÃªs valores inteiros distintos e os escreva em ordem crescente.
 // Autor :  Vinicius Luiz
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 A , B , C : real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 escreval("Digite um numero : ")
 leia(A)
@@ -42,4 +42,7 @@ leia(C)
    fimse
 
 
+// digite 3 numeros e ele organizira de maneira de ordem crescente
+
 fimalgoritmo
+
