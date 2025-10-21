@@ -1,16 +1,16 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "Ex38"
+// FunÃ§Ã£o : informar se a media do aluno de acordo 
+// Autor : Vinicius Luiz
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  lab, avaliacao, exame, media: real
 inicio
-// Seção de Comandos 
- escreval("Digite a nota do trabalho de laboratório: ")
+// SeÃ§Ã£o de Comandos 
+ escreval("Digite a nota do trabalho de laboratÃ³rio: ")
    leia(lab)
 
-   escreval("Digite a nota da avaliação semestral: ")
+   escreval("Digite a nota da avaliaÃ§Ã£o semestral: ")
    leia(avaliacao)
 
    escreval("Digite a nota do exame final: ")
@@ -18,5 +18,7 @@ inicio
 
    media <- ((lab * 2) + (avaliacao * 3) + (exame * 5)) / 10
 
-   escreval("A média ponderada do aluno é: ", media:0:2)
+   escreval("A mÃ©dia ponderada do aluno Ã©: ", media:0:2)
 fimalgoritmo
+
+// dira a media do aluno de acordo com suas notas na prova 
