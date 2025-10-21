@@ -1,28 +1,28 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "Ex27"
+// FunÃ§Ã£o : calcule e exiba o valor do desconto e o valor a ser pago pelo cliente
+// Autor : Vinicius Luiz
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
  valorVeiculo, desconto, valorFinal, totalDesconto, totalPago : real
   combustivel : caractere
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
  totalDesconto <- 0
    totalPago <- 0
 
    repita
-      escreval("Digite o valor do veículo (0 para sair): R$ ")
+      escreval("Digite o valor do veÃ­culo (0 para sair): R$ ")
       leia(valorVeiculo)
 
       se (valorVeiculo = 0) entao
          pare
       fimse
 
-      escreval("Digite o tipo de combustível (álcool, gasolina, diesel): ")
+      escreval("Digite o tipo de combustÃ­vel (Ã¡lcool, gasolina, diesel): ")
       leia(combustivel)
 
-      se (combustivel = "álcool") entao
+      se (combustivel = "Ã¡lcool") entao
          desconto <- valorVeiculo * 0.25
       senao
          se (combustivel = "gasolina") entao
@@ -31,7 +31,7 @@ inicio
             se (combustivel = "diesel") entao
                desconto <- valorVeiculo * 0.14
             senao
-               escreval("Combustível inválido! Desconto será 0.")
+               escreval("CombustÃ­vel invÃ¡lido! Desconto serÃ¡ 0.")
                desconto <- 0
             fimse
          fimse
@@ -51,3 +51,7 @@ inicio
    escreval("Total de desconto concedido: R$ ", totalDesconto:0:2)
    escreval("Total pago pelos clientes: R$ ", totalPago:0:2)
 fimalgoritmo
+
+
+//fara o calculo exibira o valor do desconto e o valor a ser pago pelo cliente
+
