@@ -1,14 +1,14 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Ex32"
+// FunÃ§Ã£o : calculadora de A, B e C sendo "C" um caractere
 // Autor :  Vinicius Luiz
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 A , B: real
 C : caractere
 total : real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 escreval("Digite um numero : ")
 leia(A)
@@ -39,15 +39,16 @@ leia(B)
                   resultado <- A / B
                   escreval("Resultado: ", total)
                senao
-                  escreval("Erro: divisão por zero não é permitida!")
+                  escreval("Erro: divisÃ£o por zero nÃ£o Ã© permitida!")
                fimse
             senao
-               escreval("Operador não definido!")
+               escreval("Operador nÃ£o definido!")
             fimse
          fimse
       fimse
    fimse
 
-
+// Dados trÃªs valores A, B e C, em que A e B sÃ£o nÃºmeros reais e C Ã© um caractere, fara uma divisao e dira o resultado da operaÃ§Ã£o de A por B se C for um sÃ­mbolo de operador aritmÃ©tico
 
 fimalgoritmo
+
