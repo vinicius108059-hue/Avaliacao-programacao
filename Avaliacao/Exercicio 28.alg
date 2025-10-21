@@ -54,9 +54,11 @@ inicio
    escreval("Aumento total da folha de pagamento: R$ ", aumentoTotal:0:2)
 
 
-// ira informar o reajuste do salario dos funcionarios de acordo com os criterios 
+// ira informar o reajuste do salario dos funcionarios de acordo com os criterios ira ler o nome do funcionário, seu salário e o valor do salário mínimo, calcular o seu novo salário reajustado. E escrever o
+nome do funcionário, o reajuste e seu novo salário. 
 
 
 fimalgoritmo
+
 
 
