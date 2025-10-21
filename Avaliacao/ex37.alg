@@ -1,15 +1,15 @@
 algoritmo "Ex37"
-// Função :
+// FunÃ§Ã£o : leia o nome, o sexo, a altura e a idade de uma pessoa
 // Autor :  Vinicius Luiz
 // Data : 15/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nome, sexo: caractere
 idade, x: inteiro
 altura, peso: real
 
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 escreva("Digite o nome: ")
 leia(nome)
 x <- 1
@@ -63,6 +63,10 @@ limpatela
 escreval("Nome: ",nome)
 escreval("Peso Ideal: ",peso)
 
+// ira ler nome, o sexo, a altura e a idade de uma pessoa e calculara e mostrara nome e o seu peso
+ideal de acordo com as seguintes caracterÃ­sticas da pessoa
+
 
 
 fimalgoritmo
+
