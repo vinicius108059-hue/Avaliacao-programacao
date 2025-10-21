@@ -1,12 +1,12 @@
-algoritmo "semnome"
-// Função :
+algoritmo "Ex33"
+// FunÃ§Ã£o : dira o tipo de triangulo de acordo com os numeros digitados
 // Autor : Vinicius Luiz
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 A , B , C : real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 escreval("Digite o primeiro lado: ")
    leia(A)
@@ -18,23 +18,24 @@ escreval("Digite o primeiro lado: ")
    leia(C)
 
    se (A < B + C) e (B < A + C) e (C < A + B) entao
-      escreval("Os valores formam um triângulo.")
+      escreval("Os valores formam um triÃ¢ngulo.")
 
       se (A = B) e (B = C) entao
-         escreval("Tipo: Triângulo Equilátero")
+         escreval("Tipo: TriÃ¢ngulo EquilÃ¡tero")
 
       senao
          se (A = B) ou (A = C) ou (B = C) entao
-            escreval("Tipo: Triângulo Isósceles")
+            escreval("Tipo: TriÃ¢ngulo IsÃ³sceles")
          senao
-            escreval("Tipo: Triângulo Escaleno")
+            escreval("Tipo: TriÃ¢ngulo Escaleno")
          fimse
       fimse
 
    senao
-      escreval("Os valores NÃO formam um triângulo.")
+      escreval("Os valores NÃƒO formam um triÃ¢ngulo.")
    fimse
 
-
+// digite 3 numeros, e dira o tipo de triangulo de acordo com os numeros digitados 
 
 fimalgoritmo
+
