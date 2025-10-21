@@ -1,31 +1,38 @@
 algoritmo "Ex25"
-// Função :
-// Autor :
+// FunÃ§Ã£o : leia dois nÃºmeros e identifique se sÃ£o iguais ou diferentes
+// Autor : Vinicius Luiz
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 n1 , n2 : real
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
-escreval("Digite um número : ")
+escreval("Digite um nÃºmero : ")
 leia(n1)
 
-escreval("Digite outro número : ")
+escreval("Digite outro nÃºmero : ")
 leia(n2)
 
 se(n1 = n2) entao
 
-   escreva("Os numeros são iguais ")
+   escreva("Os numeros sÃ£o iguais ")
 senao
-     escreval("Os números são diferentes ")
+     escreval("Os nÃºmeros sÃ£o diferentes ")
      se (n1 > n2)  entao
-        escreva("O maior numero é : " , n1)
+        escreva("O maior numero Ã© : " , n1)
      senao
-        escreva("O maior numero é : " , n2)
+        escreva("O maior numero Ã© : " , n2)
      fimse
      fimse
 
+// ira ler dois numeros e dira se sao iguais ou diferentes, e dira qual o maior e o menor e caso sejao iguais dira que sao iguais
 
  
 fimalgoritmo
+
+
+
+
+
+
