@@ -1,16 +1,16 @@
-algoritmo "semnome"
-// Função :
-// Autor :
+algoritmo "Ex34"
+// FunÃ§Ã£o : calcule o salario de um professor de acordo com as circustancias
+// Autor : Vinicius Luiz
 // Data : 14/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 nivel: inteiro
 horas : real
 valorHora, salario: real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
-escreval("Digite o nível do professor (1, 2 ou 3): ")
+escreval("Digite o nÃ­vel do professor (1, 2 ou 3): ")
 leia(nivel)
 
 escreval("Digite quantas horas/aula foram aplicadas: ")
@@ -25,17 +25,17 @@ senao
       se nivel = 3 entao
          valorHora <- 25.00
       senao
-         escreval("Nível inválido!")
-         pare // encerra o programa se o nível for inválido
+         escreval("NÃ­vel invÃ¡lido!")
+         pare // encerra o programa se o nÃ­vel for invÃ¡lido
       fimse
    fimse
 fimse
 
 salario <- horas * valorHora
-escreval("O salário do professor é: R$ ", salario:0:2)
+escreval("O salÃ¡rio do professor Ã©: R$ ", salario:0:2)
 
 
-
+// escreva o nivel do professor de 1 a 3 e quantas horas de aula foram dadas, fara a conta e dira quanto ele recebera
 
 
 
@@ -44,3 +44,4 @@ escreval("O salário do professor é: R$ ", salario:0:2)
 
 
 fimalgoritmo
+
