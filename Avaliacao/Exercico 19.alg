@@ -1,33 +1,37 @@
 algoritmo "Ex19"
-// Função :
+// FunÃ§Ã£o : contar quantas pessoas sao homens e mulheres
 // Autor : Vinicius Luiz
 // Data : 30/09/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 i, idade , totalM , totalH : inteiro
 sexo , nome , M , H : caracter
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 
 para i de 1 ate 2 faca
 
-escreval("Digite o nome da " , i , " ª pessoa : ")
+escreval("Digite o nome da " , i , " Âª pessoa : ")
 leia(nome)
 
 escreval("Digite o genero da pessoa (H para homen , M para mulher) : ")
 leia(sexo)
 
 se(sexo= "H") ou (sexo = "h") entao
-escreval(h , "é homen.")
+escreval(h , "Ã© homen.")
 totalH <- totalH +1
 
 senao
 se (sexo = "M") ou (sexo = "m") entao
-escreval(nome, " é mulher.")
+escreval(nome, " Ã© mulher.")
 totalM <- totalM + 1
 
-escreval(" O total de homens é : " , totalH)
-escreval(" O total de mulheres é : " , totalM)
+escreval(" O total de homens Ã© : " , totalH)
+escreval(" O total de mulheres Ã© : " , totalM)
+
+
+// dira o nome da pessoa, seu genereo e fara uma contagem de quantas pessoas sao homens e mulheres
+
 
 
          fimse
@@ -39,3 +43,4 @@ escreval(" O total de mulheres é : " , totalM)
 
 
 fimalgoritmo
+
