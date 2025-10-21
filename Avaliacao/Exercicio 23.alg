@@ -1,33 +1,34 @@
 algoritmo "Ex23"
-// Função :
+// FunÃ§Ã£o : receba um nÃºmero e mostre uma mensagem caso este nÃºmero sege maior que 80
 // Autor : Vinicius Luiz
 // Data : 13/10/2025
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 numero :  inteiro
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
-escreval("Digite um número : ")
+escreval("Digite um nÃºmero : ")
 leia(numero)
 
 se (numero > 80) entao
-   escreval("o número é maior que 80 ")
+   escreval("o nÃºmero Ã© maior que 80 ")
    fimse
 
 se (numero < 25) entao
-   escreval("O número é menor que 25 ")
+   escreval("O nÃºmero Ã© menor que 25 ")
    fimse
    
 se (numero = 40) entao
-   escreval("O número é igual a 40 ")
+   escreval("O nÃºmero Ã© igual a 40 ")
    
 fimse
    
 
-
+// ira receber um numero e dira se e maior que 80
 
 
 
  
 fimalgoritmo
+
