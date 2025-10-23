@@ -1,8 +1,8 @@
-algoritmo "Avalia��o_z�"
-// Disciplina : Linguagem e L�gica de Programação
-// Professor  : [Nome do Professor]
-// Descrição  : Sistema com menu para cadastro de produtos, vendas e relatórios
-// Autor(a)   : [Seu nome]
+algoritmo "Avaliação_zé"
+// Disciplina : Linguagem e Lógica de Programacao
+// Professor  : [Jose Afranio]
+// Descricao  : Sistema com menu para cadastro de produtos, vendas e relatorios
+// Autor(a)   : [Vinicius Luiz]
 // Data atual : 21/10/2025
 
 var
@@ -30,9 +30,9 @@ inicio
         escreval("=== MENU ===")
         escreval("1 - CADASTRO")
         escreval("2 - VENDAS")
-        escreval("3 - RELAT�RIOS")
+        escreval("3 - RELATÓRIOS")
         escreval("0 - SAIR")
-        escreva("Escolha uma op��o: ")
+        escreva("Escolha uma opção: ")
         leia(opc)
         escreval()
 
@@ -96,7 +96,7 @@ inicio
                 escreval()
 
             // =============================================
-            //                  RELATÓRIOS
+            //                  RELATÃ“RIOS
             // =============================================
 
             caso 3
@@ -151,7 +151,7 @@ inicio
                 saida <- 0
 
             // =============================================
-            //                 OPÇÃO INVÁLIDA
+            //                 OPÃ‡ÃƒO INVÃLIDA
             // =============================================
             
             outrocaso
