@@ -1,26 +1,49 @@
+<?php
+// --------------------------------------------
+// PROGRAMA: Verifica o tipo de triângulo
+// AUTOR: Vinicius Luiz Pires de Oliveira
+// LINGUAGEM: PHP
+// --------------------------------------------
+
+// Solicita e lê o primeiro lado do triângulo
 echo "Digite o primeiro lado: ";
-$A = (float)trim(fgets(STDIN));
+$A = (float) trim(fgets(STDIN));  // Lê e converte para número decimal
 
+// Solicita e lê o segundo lado do triângulo
 echo "Digite o segundo lado: ";
-$B = (float)trim(fgets(STDIN));
+$B = (float) trim(fgets(STDIN));
 
+// Solicita e lê o terceiro lado do triângulo
 echo "Digite o terceiro lado: ";
-$C = (float)trim(fgets(STDIN));
+$C = (float) trim(fgets(STDIN));
 
-// Verifica se os lados formam um triângulo
+// --------------------------------------------
+// VERIFICA SE OS LADOS FORMAM UM TRIÂNGULO
+// Regra: cada lado deve ser menor que a soma dos outros dois
+// --------------------------------------------
 if (($A < $B + $C) && ($B < $A + $C) && ($C < $A + $B)) {
+    
+    // Se a condição for verdadeira:
     echo "Os valores formam um triângulo.\n";
 
-    // Verifica o tipo do triângulo
+    // --------------------------------------------
+    // VERIFICAÇÃO DO TIPO DE TRIÂNGULO
+    // --------------------------------------------
     if ($A == $B && $B == $C) {
+        // Todos os lados são iguais
         echo "Tipo: Triângulo Equilátero\n";
-    } elseif ($A == $B || $A == $C || $B == $C) {
+    } 
+    elseif ($A == $B || $A == $C || $B == $C) {
+        // Apenas dois lados são iguais
         echo "Tipo: Triângulo Isósceles\n";
-    } else {
+    } 
+    else {
+        // Todos os lados são diferentes
         echo "Tipo: Triângulo Escaleno\n";
     }
 
 } else {
+    // Caso a condição inicial seja falsa
     echo "Os valores NÃO formam um triângulo.\n";
 }
 ?>
