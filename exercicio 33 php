@@ -1,0 +1,26 @@
+echo "Digite o primeiro lado: ";
+$A = (float)trim(fgets(STDIN));
+
+echo "Digite o segundo lado: ";
+$B = (float)trim(fgets(STDIN));
+
+echo "Digite o terceiro lado: ";
+$C = (float)trim(fgets(STDIN));
+
+// Verifica se os lados formam um triângulo
+if (($A < $B + $C) && ($B < $A + $C) && ($C < $A + $B)) {
+    echo "Os valores formam um triângulo.\n";
+
+    // Verifica o tipo do triângulo
+    if ($A == $B && $B == $C) {
+        echo "Tipo: Triângulo Equilátero\n";
+    } elseif ($A == $B || $A == $C || $B == $C) {
+        echo "Tipo: Triângulo Isósceles\n";
+    } else {
+        echo "Tipo: Triângulo Escaleno\n";
+    }
+
+} else {
+    echo "Os valores NÃO formam um triângulo.\n";
+}
+?>
